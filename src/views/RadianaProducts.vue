@@ -1,7 +1,6 @@
 <template>
 	<div>
 		<ProductCards :products="products" />
-		<div>Hello</div>
 	</div>
 </template>
 <script>
