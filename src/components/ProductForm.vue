@@ -64,7 +64,6 @@
 		methods: {
 			addImage(event) {
 				this.product.img = event.target.files[0].name;
-				console.log('00000', this.product.img);
 			},
 			async submitProduct() {
 				await fetch('http://localhost:3000/products', {
