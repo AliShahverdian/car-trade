@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "brand": "Toyota",
+      "model": "Camery",
+      "price": "25000$",
+      "img": "toyota.jpg",
+      "des": "this is a very good car"
+    },
+    {
+      "id": "1",
+      "brand": "benz",
+      "model": "cls",
+      "price": "35000$",
+      "img": "benz.jpg",
+      "des": "this is a very very good car"
+    },
+    {
+      "id": "6JnsSxl",
+      "brand": "auodi",
+      "model": "tt",
+      "price": "36000",
+      "img": {
+        "0": {}
+      },
+      "des": "this is nice car"
+    },
+    {
+      "id": "XE_ae7Q",
+      "brand": "honda",
+      "model": "civic",
+      "price": "65000",
+      "img": {
+        "0": {}
+      },
+      "des": "this is a sport car"
+    },
+    {
+      "id": "3kRYqBP",
+      "brand": "aston martin",
+      "model": "aston",
+      "price": "100000",
+      "img": {
+        "0": {}
+      },
+      "des": "this is hyper car"
+    },
+    {
+      "id": "tO2wWDt",
+      "brand": "bmw",
+      "model": "tt",
+      "price": "36000",
+      "img": {},
+      "des": "jadahdakj akdajskhd"
+    },
+    {
+      "id": "I2itZdu",
+      "brand": "auodi",
+      "model": "amg",
+      "price": "52000",
+      "img": {},
+      "des": "asda faafa"
+    },
+    {
+      "id": "QrATTR4",
+      "brand": "bmw",
+      "model": "tt",
+      "price": "adsa",
+      "img": "{}",
+      "des": "dsada"
+    },
+    {
+      "id": "uV61ufr",
+      "brand": "",
+      "model": "",
+      "price": "",
+      "img": {},
+      "des": ""
+    }
+  ]
+}
