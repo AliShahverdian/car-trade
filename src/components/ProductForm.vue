@@ -46,8 +46,11 @@
 	<div>description</div>
 	<input type="text" v-model="product.des" />
 	<div><input type="submit" @click="submitProduct" /></div>
+	<img :src="product.img" />
 </template>
 <script>
+	import { assertExpressionStatement } from '@babel/types';
+
 	export default {
 		data() {
 			return {
@@ -63,7 +66,8 @@
 		},
 		methods: {
 			addImage(event) {
-				this.product.img = event.target.files[0].name;
+				const file = event.target.files[0];
+				this.product.img = URL.createObjectURL(file);
 			},
 			async submitProduct() {
 				await fetch('http://localhost:3000/products', {
@@ -73,6 +77,10 @@
 					},
 					body: JSON.stringify(this.product),
 				});
+				// await axios.get('http://localhost:3000/products')
+				// await axios.post('http://localhost:3000/products',JSON.stringify(this.product))
+				// await axios.delete('http://localhost:3000/products',id )
+				// await axios.put()
 				(this.product.id = ''),
 					(this.product.brand = ''),
 					(this.product.model = ''),

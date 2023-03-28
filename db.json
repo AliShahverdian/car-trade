@@ -1,82 +1,60 @@
 {
   "products": [
     {
-      "id": "0",
-      "brand": "Toyota",
-      "model": "Camery",
-      "price": "25000$",
-      "img": "toyota.jpg",
-      "des": "this is a very good car"
-    },
-    {
-      "id": "1",
-      "brand": "benz",
-      "model": "cls",
-      "price": "35000$",
-      "img": "benz.jpg",
-      "des": "this is a very very good car"
-    },
-    {
-      "id": "6JnsSxl",
-      "brand": "auodi",
-      "model": "tt",
-      "price": "36000",
-      "img": {
-        "0": {}
-      },
-      "des": "this is nice car"
-    },
-    {
-      "id": "XE_ae7Q",
-      "brand": "honda",
-      "model": "civic",
-      "price": "65000",
-      "img": {
-        "0": {}
-      },
-      "des": "this is a sport car"
-    },
-    {
-      "id": "3kRYqBP",
-      "brand": "aston martin",
-      "model": "aston",
-      "price": "100000",
-      "img": {
-        "0": {}
-      },
-      "des": "this is hyper car"
-    },
-    {
-      "id": "tO2wWDt",
-      "brand": "bmw",
-      "model": "tt",
-      "price": "36000",
-      "img": {},
-      "des": "jadahdakj akdajskhd"
-    },
-    {
-      "id": "I2itZdu",
-      "brand": "auodi",
+      "id": 3,
+      "brand": "mercedes benz",
       "model": "amg",
-      "price": "52000",
-      "img": {},
-      "des": "asda faafa"
+      "price": "135000",
+      "img": "blob:http://localhost:8080/8c72ae40-2caf-4ff7-acac-743c3451f47a",
+      "des": "best car"
     },
     {
-      "id": "QrATTR4",
+      "id": 4,
+      "brand": "toyota",
+      "model": "camry",
+      "price": "36000",
+      "img": "blob:http://localhost:8080/d103b9ed-c80c-441a-ae46-c447fe4cbdb2",
+      "des": "very good quality"
+    },
+    {
+      "id": 5,
       "brand": "bmw",
-      "model": "tt",
-      "price": "adsa",
-      "img": "{}",
-      "des": "dsada"
+      "model": "x3",
+      "price": "120000",
+      "img": "blob:http://localhost:8080/95218673-db8a-4fd3-8692-8b58f9cea334",
+      "des": "intresting car"
     },
     {
-      "id": "uV61ufr",
+      "id": 6,
+      "brand": "auodi",
+      "model": "tt",
+      "price": "100000",
+      "img": "blob:http://localhost:8080/7bcfa83f-8352-49a8-abe8-139335a7a5f4",
+      "des": "good car"
+    },
+    {
+      "id": 7,
       "brand": "",
       "model": "",
       "price": "",
-      "img": {},
+      "img": "",
       "des": ""
+    },
+    {
+      "id": 8,
+      "brand": "",
+      "model": "",
+      "price": "",
+      "img": "",
+      "des": ""
+    },
+    {
+      "id": 9,
+      "brand": "bmw",
+      "model": "amg",
+      "price": "63000",
+      "img": "blob:http://localhost:8080/e4259ac2-b14c-48f7-b060-ded4cce439da",
+      "des": "sport car"
     }
   ]
 }

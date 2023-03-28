@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <a>for watchig videos the best car Click hear</a>
   </div>
 </template>
